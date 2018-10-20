@@ -1,0 +1,26 @@
+{
+  "name": "dumbjsonapi",
+  "version": "1.0.0",
+  "description": "A really dumb JSON API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewMountain/swagger_thing.git"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "NewMountain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NewMountain/swagger_thing/issues"
+  },
+  "homepage": "https://github.com/NewMountain/swagger_thing#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ramda": "^0.25.0"
+  }
+}
