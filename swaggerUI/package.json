@@ -1,0 +1,20 @@
+{
+  "name": "swaggerui",
+  "version": "1.0.0",
+  "description": "Hopefully a simple express server providing docs from the other service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Swagger",
+    "Express",
+    "derp"
+  ],
+  "author": "NewMountain",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "swagger-ui-dist": "^3.19.4"
+  }
+}
