@@ -1,0 +1,56 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is a simple test",
+    "version": "1.0.0",
+    "title": "A Dumb JSON API",
+    "license": {
+      "name": "MIT"
+    }
+  },
+  "host": "localhost:3000",
+  "tags": [
+    {
+      "name": "hello",
+      "description": "A route to greet you"
+    },
+    {
+      "name": "docs",
+      "description": "How to introspect this service"
+    }
+  ],
+  "schemes": [
+    "http"
+  ],
+  "paths": {
+    "/hello": {
+      "get": {
+        "tags": [
+          "hello"
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "examples": {
+              "application/json": {
+                "greeting": "hello"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/docs": {
+      "get": {
+        "tags": [
+          "docs"
+        ],
+        "responses": {
+          "200": {
+            "description": "Returns the JSON spec of this service"
+          }
+        }
+      }
+    }
+  }
+}
